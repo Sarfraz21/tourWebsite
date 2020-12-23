@@ -1,0 +1,242 @@
+#header {
+  background-color: #ffffff;
+}
+
+#logo {
+  font-size: 2rem;
+  margin-top: 5px;
+  margin-left: 40px;
+  padding: 5px;
+  font-family: "Langar", cursive;
+  color: #ffff00;
+}
+#menu {
+  list-style: none;
+  margin-right: 50px;
+  padding: 0;
+}
+.section {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.section h2.section-head{
+	color: #000;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.section h2.section-head:after{
+	background: #ffff00;
+	content: "";
+	display: block;
+	width: 100px;
+	height: 3px;
+	margin: 20px auto;
+}
+.section h5.section-head{
+	color: #000;
+	text-align: center;
+}
+#menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+#menu li a {
+  padding: 15px 10px;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+#banner {
+  background: url("https://s3.india.com/travel/wp-content/uploads/2018/04/Jharkhand-photo-1.jpg")
+    no-repeat 0 0;
+  background-size: cover;
+}
+.title {
+  font-family: "Langar", cursive;
+  font-size: 50px;
+}
+.banner-title {
+  padding-top: 5rem;
+  color: white;
+}
+
+.banner-title span {
+  display: flex;
+  padding: 10px;
+  margin: 0;
+}
+
+.banner-title p.lead {
+  color: #fff;
+  padding: 10px;
+}
+
+.news-post img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.news-post h3 {
+  font-size: 1.35rem;
+}
+
+.news-post h3 a {
+  color: black;
+}
+
+#newbanner {
+  background: url("https://www.holidify.com/images/compressed/dest_wiki_11923.jpg")
+    no-repeat 0 0;
+  background-size: cover;
+  padding: 30px;
+}
+.newtitle {
+  font-family: "Langar", cursive;
+  font-size: 50px;
+}
+.newbanner-title {
+  padding-top: 5rem;
+  color: #fffb6b;
+}
+
+.newbanner-title span {
+  display: flex;
+  padding: 10px;
+  margin: 0;
+}
+
+.newbanner-title p.lead {
+  color: black;
+  padding: 10px;
+}
+.service-box {
+  text-align: center;
+}
+
+.service-box i.fas {
+  color: #ffff00;
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+.pic-art {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  height: 400px;
+  width: 100%;
+  background-image: url("https://www.nativeplanet.com/img/2018/09/damwater-1537505080.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+#primarybutton {
+  text-align: center;
+  padding-top: 250px;
+  border-radius: 100%;
+  gap: 30%;
+}
+
+#footer-sidebar{
+	color: #fff;
+	background: #34495e;
+	padding: 20px 0;
+}
+
+.footer-widget h4:after{
+	content: "";
+	background: #fff;
+	display: block;
+	width: 50px;
+	height: 2px;
+	margin: 5px 0;
+}
+
+.footer-widget a{
+	color: #fff;
+}
+
+.latest-news{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.latest-news li{
+	margin-bottom: 3px;
+}
+
+.latest-news li:before{
+	content: "\f101";
+	font-family: FontAwesome;
+	padding-right: 5px;
+}
+
+#footer{
+	color: #fff;
+	background: #2c3e50;
+	padding: 10px 0;
+}
+
+#social-icons{
+	list-style: none;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+#social-icons li{
+	display: inline-block;
+	padding-left: 5px;
+}
+#social-icons li a{
+	color: #fff;
+	font-size: 23px;
+}
+@media (max-width: 992px){
+	.news-post{
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 768px){
+	#logo{
+		text-align: center;
+		margin: 10px 0;
+	}
+	#menu{
+		text-align: center;
+	}
+	.banner-title{
+		padding-top: 0;
+	}
+	.banner-title h1{
+		font-size: 1.7rem;
+	}
+	.section{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.testimonial{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.service-box{
+		margin-bottom: 30px;
+	}
+	
+	.footer-widget{
+		margin-bottom: 20px;
+	}
+
+	#footer{
+		text-align: center;
+	}
+	#social-icons{
+		margin-top: 10px;
+	}
+}
