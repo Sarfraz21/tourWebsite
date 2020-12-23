@@ -1,5 +1,6 @@
 #header {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background: #34495E;
 }
 
 #logo {
@@ -8,7 +9,7 @@
   margin-left: 40px;
   padding: 5px;
   font-family: "Langar", cursive;
-  color: #ffff00;
+  color:#E0A800
 }
 #menu {
   list-style: none;
@@ -43,8 +44,11 @@
 #menu li a {
   padding: 15px 10px;
   display: block;
-  color: black;
+  color: #E0A800;
   text-decoration: none;
+}
+#menu li a:hover{
+	background: #c0392b;
 }
 
 #banner {
@@ -115,9 +119,13 @@
 }
 
 .service-box i.fas {
-  color: #ffff00;
+  color:#E0A800;
   font-size: 70px;
   margin-bottom: 15px;
+}
+.service-box i.fas:hover {
+  background: #c0392b;
+ 
 }
 .pic-art {
   margin-top: 10px;
